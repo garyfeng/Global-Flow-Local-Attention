@@ -1,4 +1,7 @@
-torch==1.0.0
+# pytorch version installed this way has a default cuda version that may not match with your env
+# best to follow https://pytorch.org/get-started/previous-versions/#linux-and-windows-15
+# and install the correct version manually
+# torch==1.0.0
 torchvision==0.2.1
 imageio
 natsort
